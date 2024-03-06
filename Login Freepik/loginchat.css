@@ -1,0 +1,104 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0%;
+    background-color: #121534;
+    color: white;
+}
+
+.container {
+    width: 540px;
+    height: 540px;
+    background: linear-gradient(#7F6BF8, #F6A4A8);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.container_form {
+    text-align: center;
+    justify-items: center;
+
+}
+
+input[type="text"], input[type="password"] {
+    width: 95%;
+    height: 40px;
+    padding: 5px;
+    border: #22284A;
+    margin: 10px ;
+    margin-top: 5px;
+    border-radius: 0px;
+    background-color: #22284A;
+    font-size: 95%;
+    font-stretch: normal;
+    color: white;
+
+}
+
+.input-container {
+    position: relative;
+    width: 475px;
+    margin-inline-start: -7px;
+
+}
+
+.toggle-password {
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+
+}
+
+.remember-me {
+    display: flex;
+    align-items: center;
+    margin: 0px 0;
+    font-size: 95%;
+}
+
+.remember-me input[type="checkbox"] {
+    margin-right: 5px;
+
+}
+
+.forgot-password {
+    text-align: right;
+    margin-bottom: 5px;
+    font-size: 95%;
+}
+
+button {
+    padding: 15px 70px;
+    background-color: #EA4186;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transform: translateX(40%);
+    transform: translateY(-1%);
+    font-size: 100%;
+    
+}
+
+button:hover {
+    background-color: fuchsia;
+}
+
+a:-webkit-any-link {
+    color: #44AEE8;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+img{
+    width: 222px;
+    height: 180px;
+
+}
